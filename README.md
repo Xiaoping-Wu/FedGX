@@ -1,4 +1,4 @@
-# Federated_GX 
+# FedGX: Federated GWAS analyses across biobanks
 
 Using available code from FedGen. 
 https://github.com/collaborativebioinformatics/FedGen
