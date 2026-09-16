@@ -12,29 +12,34 @@ ____________________________
 
 ## Planned Steps
 
-1. Synthetic dataset creation across 3 sites (genotype and phenotype)
+1. Synthetic dataset creation across 3 sites
 
-- Use LDAK from DougSpeed.com
-- Generate genotype across three different populations (ancestries)
-- Genotype/phenotype mapping
+- Genotype/phenotype simulation by DougSpeed.com
+    - different population - Asian, Africa, European,...
+    - effect size, allele frequency,...
+    - start with case/control trait
 
 2. Client pipeline for GWAS software in *Site 1, 2, 3*
 
-- Extend to handle PLINK, GCTA, SAIGE, and custom approaches, over and above REGENIE
-- Edits to server-side GWAS code to handle different GWAS calls
+- Extension of REGENIE, towards PLINK, GCTA, SAIGE, and custom approaches
+- Small edits to server-side GWAS code
 - Possibly LD structure handling
 
 3. Standardization of summary stats in *Central Analytical Engine*
 
-4. Meta-analyses in *Central Analytical Engine* using GWAMA
+4. Meta-analyses in *Central Analytical Engine*
 
-- FFX — currently implemented
-- RFX — currently buggy
-- Optionally develop LD structure weighted meta-analyses
+  - FFX — currently implemented
+  - RFX — currently buggy
 
 5. Visualisation component (bonus, not core scope)
+  - Manhattan plots
+  -   QQ plots
+  -   Population-specific results
+  -   Site-specific comparisons
+  -   Meta-analysis comparisons
 
-6. PRS (open question — not yet scoped)
+7. PRS (open question — not yet scoped) / fine mapping/...
 
 ____________________________
 
