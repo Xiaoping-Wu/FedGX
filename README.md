@@ -12,23 +12,25 @@ ____________________________
 
 ## Planned Steps
 
-1. Synthetic dataset creation across 3 sites
+1. Synthetic dataset creation across 3 sites (genotype and phenotype)
 
-- DougSpeed.com — check whether the software can control for ethnicity (needs verification)
+- Use LDAK from DougSpeed.com
+- Generate genotype across three different populations (ancestries)
 - Genotype/phenotype mapping
 
 2. Client pipeline for GWAS software in *Site 1, 2, 3*
 
-- Extension of REGENIE, towards PLINK, GCTA, SAIGE, and custom approaches
-- Small edits to server-side GWAS code
+- Extend to handle PLINK, GCTA, SAIGE, and custom approaches, over and above REGENIE
+- Edits to server-side GWAS code to handle different GWAS calls
 - Possibly LD structure handling
 
 3. Standardization of summary stats in *Central Analytical Engine*
 
-4. Meta-analyses in *Central Analytical Engine*
+4. Meta-analyses in *Central Analytical Engine* using GWAMA
 
 - FFX — currently implemented
 - RFX — currently buggy
+- Optionally develop LD structure weighted meta-analyses
 
 5. Visualisation component (bonus, not core scope)
 
